@@ -35,3 +35,25 @@ for (i = nums.length - 1; i >= 0; i--) {
     let let_ter = nums[i];
     revArray.push(let_ter);
 }
+
+
+
+// string reverse ===================>
+
+let cities = ["delhi", "mumbai", "kolkata", "pune"];
+
+let reVers = cities.slice().reverse();
+console.log(reVers);
+
+console.log(cities);
+
+
+let rev_ers = [];
+let j = 0;
+while (j < cities.length) {
+    // console.log(cities[j]);
+    let city = cities[j];
+    rev_ers.unshift(city);
+    j++;
+}
+console.log(rev_ers);
