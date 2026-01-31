@@ -3,12 +3,13 @@
 
 let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-let change = nums.slice().reverse();
+let change = nums.slice().reverse();//cut and reverse original array not change
 console.log(change);
 
 console.log(nums);
 
 
+// array to string and reverse
 let rev = [];
 for (let num of nums) {
     // console.log(num);
@@ -20,6 +21,8 @@ let str = rev.split(""); //Array string banalam
 console.log(str);
 
 
+
+// unshift method to reverse and store new array
 let reVerse = []
 for (let i = 0; i < nums.length; i++) {
     // console.log(nums[i]);
@@ -28,7 +31,7 @@ for (let i = 0; i < nums.length; i++) {
 }
 console.log(reVerse);
 
-
+// decremental for loop
 let revArray = [];  // different reverse way
 for (i = nums.length - 1; i >= 0; i--) {
     // console.log(nums[i]);
@@ -47,7 +50,7 @@ console.log(reVers);
 
 console.log(cities);
 
-
+// while loop
 let rev_ers = [];
 let j = 0;
 while (j < cities.length) {

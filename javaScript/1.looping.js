@@ -9,6 +9,8 @@
 // length ------>
 let cities = ["delhi", "mumbai", "kolkata", "pune"];
 
+
+
 for (let city of cities) {
     console.log(city);
 }
@@ -22,5 +24,7 @@ while (i < cities.length) {
     console.log(cities[i]);
     i++;
 };
+
+
 
 
